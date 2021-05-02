@@ -13,7 +13,7 @@ namespace FlappyBird
     public partial class Form1 : Form
     {
         int pipeSpeed = 6;
-        int gravity = 12;
+        int gravity = 14;
         int score = 0;
 
         public Form1()
@@ -82,7 +82,7 @@ namespace FlappyBird
         {
             if (e.KeyCode == Keys.Space)
             {
-                gravity = -12;
+                gravity = -14;
             }
         }
 
@@ -90,7 +90,7 @@ namespace FlappyBird
         {
             if (e.KeyCode == Keys.Space)
             {
-                gravity = 12;
+                gravity = 14;
             }
         }
 

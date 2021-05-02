@@ -63,6 +63,26 @@ namespace FlappyBird.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _102_1020836_kawaii_potato_png_cartoon_transparent_png {
+            get {
+                object obj = ResourceManager.GetObject("102-1020836_kawaii-potato-png-cartoon-transparent-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _55_556995_cartoon_potato_png_potato_cartoon_transparent_background_png {
+            get {
+                object obj = ResourceManager.GetObject("55-556995_cartoon-potato-png-potato-cartoon-transparent-background-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bird {
             get {
                 object obj = ResourceManager.GetObject("bird", resourceCulture);

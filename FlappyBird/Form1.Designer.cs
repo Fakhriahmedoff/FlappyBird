@@ -58,9 +58,9 @@ namespace FlappyBird
             // 
             this.flappyBird.BackColor = System.Drawing.Color.Transparent;
             this.flappyBird.Image = global::FlappyBird.Properties.Resources.bird;
-            this.flappyBird.Location = new System.Drawing.Point(94, 265);
+            this.flappyBird.Location = new System.Drawing.Point(25, 278);
             this.flappyBird.Name = "flappyBird";
-            this.flappyBird.Size = new System.Drawing.Size(83, 61);
+            this.flappyBird.Size = new System.Drawing.Size(66, 50);
             this.flappyBird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.flappyBird.TabIndex = 1;
             this.flappyBird.TabStop = false;
@@ -126,7 +126,7 @@ namespace FlappyBird
             this.Controls.Add(this.pipeTop);
             this.Controls.Add(this.pipeBottom);
             this.Name = "Form1";
-            this.Text = "Flappy Bird";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.gameKeyIsDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.gameKeyIsUp);
