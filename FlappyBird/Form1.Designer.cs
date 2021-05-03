@@ -58,7 +58,7 @@ namespace FlappyBird
             // 
             this.flappyBird.BackColor = System.Drawing.Color.Transparent;
             this.flappyBird.Image = global::FlappyBird.Properties.Resources.bird;
-            this.flappyBird.Location = new System.Drawing.Point(25, 278);
+            this.flappyBird.Location = new System.Drawing.Point(52, 275);
             this.flappyBird.Name = "flappyBird";
             this.flappyBird.Size = new System.Drawing.Size(66, 50);
             this.flappyBird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -110,8 +110,9 @@ namespace FlappyBird
             this.notifyLabel.Font = new System.Drawing.Font("Showcard Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.notifyLabel.Location = new System.Drawing.Point(222, 713);
             this.notifyLabel.Name = "notifyLabel";
-            this.notifyLabel.Size = new System.Drawing.Size(0, 33);
+            this.notifyLabel.Size = new System.Drawing.Size(20, 33);
             this.notifyLabel.TabIndex = 5;
+            this.notifyLabel.Text = " ";
             // 
             // Form1
             // 

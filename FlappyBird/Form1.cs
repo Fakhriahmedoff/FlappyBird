@@ -57,7 +57,7 @@ namespace FlappyBird
             }
             if (flappyBird.Bounds.IntersectsWith(pipeBottom.Bounds) ||
                 flappyBird.Bounds.IntersectsWith(pipeTop.Bounds) ||
-                     flappyBird.Bounds.IntersectsWith(ground.Bounds))
+                flappyBird.Bounds.IntersectsWith(ground.Bounds))
             {
                 endGame();
             }
@@ -71,6 +71,16 @@ namespace FlappyBird
             {
                 notifyLabel.Text = "Speed Upgraded to 15";
                 pipeSpeed = 15;
+            }
+            if (score > 25)
+            {
+                notifyLabel.Text = "Speed Upgraded to 20";
+                pipeSpeed = 20;
+            }
+            if (score > 40)
+            {
+                notifyLabel.Text = "Speed Upgraded to 25";
+                pipeSpeed = 25;
             }
             if (flappyBird.Top < -25)
             {
